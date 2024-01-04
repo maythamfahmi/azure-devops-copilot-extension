@@ -9,7 +9,7 @@ module openAiServiceDeployment 'br:mcr.microsoft.com/bicep/ai/cognitiveservices:
   name: 'openaiservice-${deploymentSuffix}'
   params: {
     kind: 'OpenAI'
-    name: 'devops-copilot-openai-${resourceSuffix}'
+    name: 'openai${resourceSuffix}-m2'
     skuName: 'S0'
     location: location
     deployments: [
